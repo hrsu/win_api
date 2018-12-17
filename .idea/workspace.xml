@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="185a2c68-6c94-4afe-abae-ea292dba7b8e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk/API_dataset1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nltk/API_dataset1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/nltk/count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk/frequent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nltk/frequent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/nltk/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sometest/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sometest/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.neg" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.neg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.pos" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_disturb.py" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_disturb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/text_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/text_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/API_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/bad_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/goodAPI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/good_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/winapi/rnn/lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/lstm_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/winapi/rnn/lstm_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/lstm_data1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/winapi/rnn/lstm_data1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/lstm_data2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/winapi/rnn/lstm_data2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/old_lstm_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/pos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winapi/rnn/train_data.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/code$goodprocess.coverage" NAME="goodprocess Coverage Results" MODIFIED="1540305784190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/code$get_small_seq.coverage" NAME="get_small_seq Coverage Results" MODIFIED="1541476835347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$judge.coverage" NAME="judge Coverage Results" MODIFIED="1541323121159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$text.coverage" NAME="text Coverage Results" MODIFIED="1540776968649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$svm__1_.coverage" NAME="svm (1) Coverage Results" MODIFIED="1541055826056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$predict.coverage" NAME="predict Coverage Results" MODIFIED="1540295723644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SentimentAnalysis-master" />
+    <SUITE FILE_PATH="coverage/code$llll.coverage" NAME="llll Coverage Results" MODIFIED="1542993384131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$data_disturb.coverage" NAME="data_disturb Coverage Results" MODIFIED="1542127608215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$train.coverage" NAME="train Coverage Results" MODIFIED="1544115772069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master" />
+    <SUITE FILE_PATH="coverage/code$des.coverage" NAME="des Coverage Results" MODIFIED="1540800665839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
+    <SUITE FILE_PATH="coverage/code$train_and_eva.coverage" NAME="train_and_eva Coverage Results" MODIFIED="1540301716660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SentimentAnalysis-master" />
+    <SUITE FILE_PATH="coverage/code$getsequence.coverage" NAME="getsequence Coverage Results" MODIFIED="1540791148448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$count.coverage" NAME="count Coverage Results" MODIFIED="1542121190906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$svm.coverage" NAME="svm Coverage Results" MODIFIED="1542271565884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram1" />
+    <SUITE FILE_PATH="coverage/code$n_gram.coverage" NAME="n-gram Coverage Results" MODIFIED="1543076234559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram1" />
+    <SUITE FILE_PATH="coverage/code$Information_gain1.coverage" NAME="Information_gain1 Coverage Results" MODIFIED="1541668592853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/information" />
+    <SUITE FILE_PATH="coverage/code$testnltk.coverage" NAME="testnltk Coverage Results" MODIFIED="1540402454531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$ngram.coverage" NAME="ngram Coverage Results" MODIFIED="1540953417753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$lstm.coverage" NAME="lstm Coverage Results" MODIFIED="1543077925416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$process.coverage" NAME="process Coverage Results" MODIFIED="1540392997362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$lstm1.coverage" NAME="lstm1 Coverage Results" MODIFIED="1540311721017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1541942527326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sometest" />
+    <SUITE FILE_PATH="coverage/code$Informationgain.coverage" NAME="Informationgain Coverage Results" MODIFIED="1540724473137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$jieba.coverage" NAME="jieba Coverage Results" MODIFIED="1540778174440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$CONFIG.coverage" NAME="CONFIG Coverage Results" MODIFIED="1540298278747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SentimentAnalysis-master" />
+    <SUITE FILE_PATH="coverage/code$mmmm.coverage" NAME="mmmm Coverage Results" MODIFIED="1542880897296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master" />
+    <SUITE FILE_PATH="coverage/code$spaceprocess.coverage" NAME="spaceprocess Coverage Results" MODIFIED="1540371044295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/api_to_num" />
+    <SUITE FILE_PATH="coverage/code$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1543425914869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master" />
+    <SUITE FILE_PATH="coverage/code$apinum.coverage" NAME="apinum Coverage Results" MODIFIED="1540400501681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/api_to_num" />
+    <SUITE FILE_PATH="coverage/code$utils.coverage" NAME="utils Coverage Results" MODIFIED="1540296491633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SentimentAnalysis-master" />
+    <SUITE FILE_PATH="coverage/code$decision__1_.coverage" NAME="decision (1) Coverage Results" MODIFIED="1541055896093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nltk" />
+    <SUITE FILE_PATH="coverage/code$test.coverage" NAME="test Coverage Results" MODIFIED="1542246245068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram1" />
+    <SUITE FILE_PATH="coverage/code$data_disturb__1_.coverage" NAME="data_disturb (1) Coverage Results" MODIFIED="1542125719951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master" />
+    <SUITE FILE_PATH="coverage/code$goodapi_process.coverage" NAME="goodapi_process Coverage Results" MODIFIED="1540305776166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/code$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1540919051001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$txt2csv.coverage" NAME="txt2csv Coverage Results" MODIFIED="1540975488225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$decision.coverage" NAME="decision Coverage Results" MODIFIED="1542265447172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram1" />
+    <SUITE FILE_PATH="coverage/code$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1540954865613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n-gram" />
+    <SUITE FILE_PATH="coverage/code$lstm_data_csv.coverage" NAME="lstm_data_csv Coverage Results" MODIFIED="1540790333997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$lstm_data.coverage" NAME="lstm_data Coverage Results" MODIFIED="1542123786739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winapi/rnn" />
+    <SUITE FILE_PATH="coverage/code$eval.coverage" NAME="eval Coverage Results" MODIFIED="1542721449064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1159">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#24#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/text_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winapi/rnn/lstm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="48" column="22" lean-forward="true" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winapi/rnn/llll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1276">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gram</find>
+      <find>LocalAlloc</find>
+      <find>[</find>
+      <find>choices</find>
+      <find>1</find>
+      <find>x_train</find>
+      <find>Evaluation</find>
+      <find>acc</find>
+      <find>***</find>
+      <find>return</find>
+      <find>pred</find>
+      <find>lstm_data</find>
+      <find>fit</find>
+      <find>session</find>
+      <find>Session</find>
+      <find>dev_step</find>
+      <find>sess.run</find>
+      <find>TextCNN</find>
+      <find>cnn</find>
+      <find>step</find>
+      <find>scalar</find>
+      <find>accuracy</find>
+      <find>loss_summary</find>
+      <find>dev_summary_op</find>
+      <find>learn</find>
+      <find>recall</find>
+      <find>print</find>
+      <find>FLAGS</find>
+      <find>dev_sample_percentage</find>
+      <find>positive_data_file</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/n-gram/getsequence.py" />
+        <option value="$PROJECT_DIR$/1/des.py" />
+        <option value="$PROJECT_DIR$/n-gram/read_data.py" />
+        <option value="$PROJECT_DIR$/n-gram/ngram.py" />
+        <option value="$PROJECT_DIR$/winapi/api_to_num/goodAPI.csv" />
+        <option value="$PROJECT_DIR$/winapi/api_to_num/apinum.py" />
+        <option value="$PROJECT_DIR$/n-gram/txt2csv.py" />
+        <option value="$PROJECT_DIR$/n-gram/test.py" />
+        <option value="$PROJECT_DIR$/n-gram/svm.py" />
+        <option value="$PROJECT_DIR$/n-gram/decision.py" />
+        <option value="$PROJECT_DIR$/n-gram/all_data1.csv" />
+        <option value="$PROJECT_DIR$/n-gram/judge.py" />
+        <option value="$PROJECT_DIR$/n-gram/1.txt" />
+        <option value="$PROJECT_DIR$/n-gram/2.txt" />
+        <option value="$PROJECT_DIR$/n-gram/small_data.txt" />
+        <option value="$PROJECT_DIR$/n-gram/get_small_seq.py" />
+        <option value="$PROJECT_DIR$/sometest/1" />
+        <option value="$PROJECT_DIR$/sometest/2" />
+        <option value="$PROJECT_DIR$/sometest/2.txt" />
+        <option value="$PROJECT_DIR$/information/Information_gain1.py" />
+        <option value="$PROJECT_DIR$/Adverserial/fgsm.py" />
+        <option value="$PROJECT_DIR$/sometest/test1.py" />
+        <option value="$PROJECT_DIR$/nltk/frequent.txt" />
+        <option value="$PROJECT_DIR$/nltk/count.py" />
+        <option value="$PROJECT_DIR$/nltk/decision.py" />
+        <option value="$PROJECT_DIR$/nltk/svm.py" />
+        <option value="$PROJECT_DIR$/sometest/test.py" />
+        <option value="$PROJECT_DIR$/winapi/rnn/lstm_data1.txt" />
+        <option value="$PROJECT_DIR$/winapi/rnn/lstm_data.txt" />
+        <option value="$PROJECT_DIR$/winapi/rnn/lstm_data.py" />
+        <option value="$PROJECT_DIR$/winapi/rnn/lstm_data2.txt" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.pos" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_disturb.py" />
+        <option value="$PROJECT_DIR$/winapi/rnn/data_disturb.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/one.txt" />
+        <option value="$PROJECT_DIR$/n-gram1/test.py" />
+        <option value="$PROJECT_DIR$/n-gram1/decision.py" />
+        <option value="$PROJECT_DIR$/n-gram1/sequence.txt" />
+        <option value="$PROJECT_DIR$/winapi/api_to_num/解析.txt" />
+        <option value="$PROJECT_DIR$/n-gram1/svm.py" />
+        <option value="$PROJECT_DIR$/n-gram1/n-gram.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/README.md" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/eval.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/mmmm.py" />
+        <option value="$PROJECT_DIR$/winapi/rnn/llll.py" />
+        <option value="$PROJECT_DIR$/n-gram1/sequence1.txt" />
+        <option value="$PROJECT_DIR$/n-gram1/sequence1.csv" />
+        <option value="$PROJECT_DIR$/winapi/rnn/lstm.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/train.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/text_cnn.py" />
+        <option value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="283" />
+    <option name="y" value="46" />
+    <option name="width" value="985" />
+    <option name="height" value="668" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="text-cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="winapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="winapi" type="462c0819:PsiDirectoryNode" />
+              <item name="rnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\text-cnn\cnn-text-classification-tf-master\data" />
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\n-gram1" />
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\winapi\rnn" />
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\n-gram" />
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\n-gram" />
+      <recent name="D:\workplace\Py\CourseWork\zysx\code\findinweb\cnn-text-classification-tf-master\data" />
+      <recent name="G:\code\dataset\1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="llll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/winapi/rnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/winapi/rnn/llll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/winapi/rnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/winapi/rnn/lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="n-gram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/n-gram1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/n-gram1/n-gram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.lstm" />
+      <item itemvalue="Python.llll" />
+      <item itemvalue="Python.n-gram" />
+      <item itemvalue="Python.train (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.lstm" />
+        <item itemvalue="Python.n-gram" />
+        <item itemvalue="Python.llll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="185a2c68-6c94-4afe-abae-ea292dba7b8e" name="Default" comment="" />
+      <created>1540219925076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540219925076</updated>
+      <workItem from="1544579749153" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29836065" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.5409836" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.14262295" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21147542" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.32972974" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17473525" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29836065" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.16885246" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.41967213" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21147542" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.32972974" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SentimentAnalysis-master/train_and_eva.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/n-gram1/n-gram.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/winapi/rnn/lstm.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="file1" />
+        <watch expression="api.__internals__['T'].__internals__['T'].__internals__['T'].__internals__['T'].__internals__" />
+        <watch expression="batch.__internals__['T'].__internals__['T'].__internals__['base'].__internals__" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/n-gram/txt2csv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram/getsequence.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram/all_data1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram/all_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="2230" column="24" selection-start-line="2230" selection-start-column="24" selection-end-line="2230" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/good.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/goodapi_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram/frequent.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1465">
+          <caret line="201" column="38" lean-forward="true" selection-start-line="201" selection-start-column="38" selection-end-line="201" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/frequent.txt" />
+    <entry file="file://$PROJECT_DIR$/nltk/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22986">
+          <caret line="286" column="32" lean-forward="true" selection-start-line="286" selection-start-column="32" selection-end-line="286" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nltk/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/neg.txt" />
+    <entry file="file://$PROJECT_DIR$/n-gram1/sequence.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="783" selection-start-line="783" selection-end-line="783" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/utils/multiclass.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="1598" column="26" lean-forward="true" selection-start-line="1598" selection-start-column="26" selection-end-line="1598" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/n-gram1/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/keras/engine/training_arrays.py" />
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/keras/engine/sequential.py" />
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api.neg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2551561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winapi/rnn/lstm_data2.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-185900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winapi/rnn/lstm_data1.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-5820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winapi/rnn/lstm_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1648528" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/keras/engine/training.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/decomposition/online_lda.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/python/client/session.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/python/framework/ops.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/python/platform/app.py" />
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api1.neg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29475">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/api1.pos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/mmmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/seq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1939">
+          <caret line="761" column="6" selection-start-line="761" selection-start-column="6" selection-end-line="761" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/sequence1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/sequence1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n-gram1/n-gram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/data_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-chinese-master/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_disturb.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/is.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data/not.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/data_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-cnn/cnn-text-classification-tf-master/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winapi/rnn/llll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winapi/rnn/lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="48" column="22" lean-forward="true" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

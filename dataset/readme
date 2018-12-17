@@ -1,0 +1,6 @@
+good.csv: 生成的良性软件csv文件
+
+data.py: 测试
+dataprocess.py: good,bad文件读取测试(路径)
+专业实训.py:之前编写
+goodapi_process: 提取所有良性软件api做成csv文件
